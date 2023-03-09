@@ -1,0 +1,27 @@
+.searchMatchTitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #003056;
+  margin-bottom: 12px;
+
+  @media (max-width: 576px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.input {
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 26px;
+
+  &::placeholder {
+    color: #d9d9d9;
+  }
+}

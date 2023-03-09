@@ -1,0 +1,66 @@
+.titleDateWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 576px) {
+    gap: 12px;
+  }
+}
+
+.title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  @media (max-width: 576px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.date {
+  font-size: 20px;
+  line-height: 24px;
+  color: #6c6f72;
+
+  @media (max-width: 576px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.matchesNotFound {
+  color: #f10404;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 26px;
+
+  @media (max-width: 576px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.advertisement {
+  border-radius: 8px;
+  margin-bottom: 24px;
+  width: 100%;
+  height: auto;
+
+  @media (max-width: 576px) {
+    display: none;
+  }
+}
+
+.advertisementMobile {
+  display: none;
+
+  @media (max-width: 576px) {
+    border-radius: 8px;
+    margin-bottom: 24px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}

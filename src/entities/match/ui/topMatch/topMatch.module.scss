@@ -1,0 +1,31 @@
+.matchWrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.matchFirstContainer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 100px;
+  justify-content: space-between;
+}
+
+.matchDate {
+  font-size: 14px;
+  line-height: 18px;
+  color: #f10404;
+  font-weight: 500;
+}
+
+.matchName {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  transition: color 0.4s;
+
+  &:hover {
+    color: #f10404;
+  }
+}

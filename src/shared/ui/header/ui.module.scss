@@ -1,0 +1,34 @@
+.header {
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.menu {
+  height: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.telegramLink {
+  background-color: #003056;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 8px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+
+  @media (max-width: 576px) {
+    display: none;
+  }
+}
+
+.broadcasts {
+  transition: color 0.4s;
+
+  &:hover {
+    color: #f10404;
+  }
+}

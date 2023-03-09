@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  color: #003056;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
